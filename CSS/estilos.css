@@ -1,0 +1,205 @@
+body {
+  background-image: url(../IMAGENES/background.jpg);
+  margin: 60px 200px 0px 200px;
+  font-family: "Merriweather", serif;
+}
+
+.imagendelogo {
+  margin: auto;
+  display: block;
+  width: 45%;
+}
+
+.barradenavegacion {
+  display: inline-flex;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.navegacion {
+  padding: 10px 60px 10px 60px;
+}
+
+.navegacion:hover {
+  background-color: goldenrod;
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+}
+
+.parallax {
+  background-image: url(../IMAGENES/los3.png);
+  min-height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cajaparallax h2 {
+  font-size: 20px;
+  color: goldenrod;
+  font-weight: 100;
+  margin: 0px auto;
+  text-align: center;
+  -webkit-text-stroke: 0.5px black;
+}
+.parrafoparallax {
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  color: rgb(59, 0, 59);
+}
+
+.parrafoparallax :hover {
+  background-color: blanchedalmond;
+  opacity: 0.5;
+  color: white;
+}
+
+.parrafoparallax a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.information {
+  display: inline-flex;
+}
+
+.information p {
+  color: blanchedalmond;
+  max-width: 50%;
+  align-self: center;
+  padding-left: 0px;
+  line-height: 23px;
+  font-size: 18px;
+  font-family: "Dancing Script", cursive;
+}
+
+.tituloAntoine {
+  font-size: 20px;
+  font-weight: normal;
+  color: chocolate;
+  font-family: "Merriweather", serif;
+}
+
+.information img {
+  max-width: 45%;
+  height: 400px;
+  padding: 0px 50px 0px 50px;
+  margin-top: 13px;
+}
+
+.section {
+  letter-spacing: 5px;
+  line-height: 2px;
+}
+
+.container {
+    width: 100%;
+    height: 350px;
+    display: inline-flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .item {
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px;
+    overflow: hidden;
+    margin: 0px 10px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+
+.section h2 {
+  text-align: center;
+  margin-top: 25px;
+  margin: 150px 0 px;
+  font-size: 45px;
+
+ 
+}
+
+
+
+.container .item:hover{
+    transform: translateY(-15px);
+    box-shadow:  0px 12px 16px rgb(255, 255, 255);
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.container .item h4{
+    
+    color: black;
+ }
+
+
+.container .item a{
+    text-decoration: none;
+
+ }
+
+
+/* section 4 videos */
+
+.videos {
+    margin: 50px 0px 0px 0px;
+}
+
+.imagenlogo {
+
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+}
+
+.iframeprincipal{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.iframes {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+ .iframes iframe{
+padding: 70px;
+
+
+
+ }
+ .final{
+   margin-top: 50px;
+   min-height: 50px;
+   background-color: aliceblue;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .final p{
+
+  text-align: center;
+  font-weight: 900;
+}
+
